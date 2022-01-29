@@ -1,6 +1,6 @@
 # SSGC-Reimplementation
 
-From https://github.com/allenhaozhu/SSGC download "data" and "DocumentClassification/data" and add those to this directory (files are too large to push them to github)
+From https://github.com/allenhaozhu/SSGC download "data" and "DocumentClassification/data" and add those to this directory (files are too large to push them to github). "DocumentClassification/data" needs to be downloaded as a zip file and extracted (again, look at the authors repo; he linked it).
 
 The implementation works without problem for all datasets except for the large OGB datasets and some document classification datasets. I simply do not have the memory to load them or generate even sparse matrices.
 
