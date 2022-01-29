@@ -2,7 +2,7 @@
 
 From https://github.com/allenhaozhu/SSGC download "data" and "DocumentClassification/data" and add those to this directory (files are too large to push them to github)
 
-The implementation works without problem for all datasets except for the large OGB datasets and some document classification datasets. I simply do not have the memory to load them or execute matrix inversion and multiplication.
+The implementation works without problem for all datasets except for the large OGB datasets and some document classification datasets. I simply do not have the memory to load them or generate even sparse matrices.
 
 However, in principle the implementation should also work for them, as long as you have enough RAM.
 
