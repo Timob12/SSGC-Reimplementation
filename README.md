@@ -10,18 +10,17 @@ Re-implementation of the S²GC model described in [Zhu and Koniusz, 2021](https:
 
 # Results
 
-This re-implementation produces very similar, if slightly worse, results to the ones described in the paper. 
+This re-implementation produces mostly very similar, if slightly worse, results to the ones described in the paper. 
 
 ## Node Classification
-
--           | Cora | Citeseer | Pubmed
-:----------------:|:------:| :------:| :------:|
-Test Accuracy - original   | 83.5 % | 73.6% | 80.2%          
-Test Accuracy - reproduced | 81.1%  | 69.9% | 79.6% 
+Datasets                          | Cora   | Citeseer | Pubmed  |
+:-------------------------:|:------:|:--------:|:-------:|
+Test Accuracy - original   | 83.5 % | 73.6%    | 80.2%          
+Test Accuracy - reproduced | 81.1%  | 69.9%    | 79.6% 
 
 ## Text Classification
 
--           | 20NG | R8 | R52 | Ohsumed | MR
+Datasets           | 20NG | R8 | R52 | Ohsumed | MR
 :----------------:|:------:| :------:| :------:| :------:| :------:|
 Test Accuracy - original   | 88.6 % | 97.4% | 94.5% | 68.5% | 76.7%          
 Test Accuracy - reproduced | -  | 95.6% | 93.3% | 65.8% | 70.0% 
