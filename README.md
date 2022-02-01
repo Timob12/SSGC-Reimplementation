@@ -1,5 +1,7 @@
 # SSGC-Reimplementation
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Og2ujgpE3wugJb3KLSt0oBOm_DRXvRxL?usp=sharing)
+
 From https://github.com/allenhaozhu/SSGC download "data" and "DocumentClassification/data" and add those to this directory (files are too large to push them to github). "DocumentClassification/data" needs to be downloaded as a zip file and extracted (again, look at the authors repo; he linked it).
 
 The implementation works without problem for all datasets except for the large OGB datasets and some document classification datasets. I simply do not have the memory to load them or generate even sparse matrices.
