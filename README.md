@@ -2,7 +2,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Og2ujgpE3wugJb3KLSt0oBOm_DRXvRxL?usp=sharing)
 
-Re-implementation of the S²GC model described in [Zhu and Koniusz, 2021](https://openreview.net/pdf?id=CYO5T-YjWZV).
+Re-implementation of the S²GC model described in [Zhu and Koniusz, 2021](https://openreview.net/pdf?id=CYO5T-YjWZV). 
+
+The reproduction takes place entirely in SSGC.ipynb. The rest of the files are from the [original repository](https://github.com/allenhaozhu/SSGC) of the paper.
 
 # Setup
 * Download the data-directory from [link](https://github.com/allenhaozhu/SSGC) and add it to "SSGC-Reimplementation"
